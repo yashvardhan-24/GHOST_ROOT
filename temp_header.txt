@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETHICAL_HACKERS_</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="terminal-icon">▶</span>
+            <span class="brand-text">ETHICAL_HACKERS_</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link" data-page="home"><span class="terminal-icon">▶</span> HOME</a></li>
+            <li><a href="#whoami" class="nav-link" data-page="whoami"><span class="terminal-icon">▶</span> WHOAMI</a></li>
+            <li><a href="#services" class="nav-link" data-page="services"><span class="terminal-icon">▶</span> SERVICES</a></li>
+            <li><a href="#academy" class="nav-link" data-page="academy"><span class="terminal-icon">▶</span> ACADEMY</a></li>
+            <li><a href="#tools" class="nav-link" data-page="tools"><span class="terminal-icon">▶</span> TOOLS</a></li>
+            <li><a href="#contact" class="nav-link" data-page="contact"><span class="terminal-icon">▶</span> CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">

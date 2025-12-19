@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOT_ACCESS // THREATS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="hacker-theme" data-page="threats">
+    <canvas id="matrix-canvas"></canvas>
+    <audio id="click-sound" src="https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3"></audio>
+    <audio id="hover-sound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
+
+    <nav class="navbar">
+        <div class="nav-brand"><span class="terminal-icon">#</span><span class="brand-text">GHOST_ROOT</span></div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="whoami.html" class="nav-link"><i class="fas fa-user-secret"></i> WHOAMI</a></li>
+            <li><a href="threats.html" class="nav-link active"><i class="fas fa-shield-virus"></i> THREATS</a></li>
+            <li><a href="services.html" class="nav-link"><i class="fas fa-cogs"></i> SERVICES</a></li>
+            <li><a href="academy.html" class="nav-link"><i class="fas fa-graduation-cap"></i> ACADEMY</a></li>
+            <li><a href="tools.html" class="nav-link"><i class="fas fa-terminal"></i> TOOLS</a></li>
+            <li><a href="ai.html" class="nav-link"><i class="fas fa-robot"></i> GHOST_AI</a></li>
+            <li><a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <section id="dashboard" class="page-section active">
+            <div class="container">
+                <h1 class="section-title"><span class="highlight-prefix">></span> GLOBAL_THREAT_INTEL</h1>
+                <div class="dashboard-grid">
+                    <div class="dashboard-panel map-panel">
+                        <div class="panel-header">LIVE_ATTACK_MAP</div>
+                        <div class="world-map-container">
+                            <div id="attack-map"></div>
+                            <div class="map-overlay">
+                                <div class="attack-feed" id="live-attack-feed">
+                                    <div class="feed-item">DDOS // USA -> RU // [84.22.1.2]</div>
+                                    <div class="feed-item alert">PHISHING // CN -> DE // [103.2.19.4]</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard-panel stats-panel">
+                        <div class="panel-header">THREAT_METRICS</div>
+                        <div class="chart-container"><canvas id="threat-chart"></canvas></div>
+                        <div class="threat-distribution">
+                            <div class="dist-item"><span class="dist-label">Phishing</span> <span class="dist-value">42%</span></div>
+                            <div class="dist-item"><span class="dist-label">DDoS</span> <span class="dist-value">28%</span></div>
+                            <div class="dist-item"><span class="dist-label">Malware</span> <span class="dist-value">15%</span></div>
+                            <div class="dist-item"><span class="dist-label">Brute Force</span> <span class="dist-value">10%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

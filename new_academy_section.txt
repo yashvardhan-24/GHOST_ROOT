@@ -1,0 +1,109 @@
+﻿        <!-- ACADEMY Section -->
+        <section id="academy" class="page-section">
+            <div class="container">
+                <h1 class="section-title-academy">/usr/share/academy</h1>
+                <p class="academy-intro">Knowledge is power. But only if applied. <span class="click-text">Click any resource to begin</span>.</p>
+                
+                <!-- START_HERE Section -->
+                <div class="academy-category">
+                    <h2 class="category-title">| START_HERE</h2>
+                    
+                    <div class="academy-cards-grid">
+                        <a href="#" class="academy-resource-card" data-resource="linux-basics">
+                            <div class="card-icon">></div>
+                            <div class="card-content">
+                                <h3 class="card-title">Linux Command Line Basics</h3>
+                                <p class="card-type">Article</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+
+                        <a href="#" class="academy-resource-card" data-resource="networking-protocols">
+                            <div class="card-icon">📡</div>
+                            <div class="card-content">
+                                <h3 class="card-title">Networking Protocols (TCP/IP)</h3>
+                                <p class="card-type">Guide</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+
+                        <a href="#" class="academy-resource-card" data-resource="python-hackers">
+                            <div class="card-icon">🐍</div>
+                            <div class="card-content">
+                                <h3 class="card-title">Intro to Python for Hackers</h3>
+                                <p class="card-type">Course</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- OFFENSIVE_SECURITY Section -->
+                <div class="academy-category">
+                    <h2 class="category-title">| OFFENSIVE_SECURITY</h2>
+                    
+                    <div class="academy-cards-grid">
+                        <a href="#" class="academy-resource-card" data-resource="web-exploitation">
+                            <div class="card-icon">📹</div>
+                            <div class="card-content">
+                                <h3 class="card-title">Web Exploitation (OWASP)</h3>
+                                <p class="card-type">Video</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+
+                        <a href="#" class="academy-resource-card" data-resource="metasploit">
+                            <div class="card-icon">🛠️</div>
+                            <div class="card-content">
+                                <h3 class="card-title">Metasploit Framework Guide</h3>
+                                <p class="card-type">Docs</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+
+                        <a href="#" class="academy-resource-card" data-resource="privilege-escalation">
+                            <div class="card-icon">></div>
+                            <div class="card-content">
+                                <h3 class="card-title">Privilege Escalation Techniques</h3>
+                                <p class="card-type">Article</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PRACTICE_PLATFORMS Section -->
+                <div class="academy-category">
+                    <h2 class="category-title">| PRACTICE_PLATFORMS</h2>
+                    
+                    <div class="academy-cards-grid">
+                        <a href="https://www.hackthebox.com" target="_blank" class="academy-resource-card" data-resource="hackthebox">
+                            <div class="card-icon">🔗</div>
+                            <div class="card-content">
+                                <h3 class="card-title">HackTheBox - CTF Platform</h3>
+                                <p class="card-type">Link</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+
+                        <a href="https://tryhackme.com" target="_blank" class="academy-resource-card" data-resource="tryhackme">
+                            <div class="card-icon">✅</div>
+                            <div class="card-content">
+                                <h3 class="card-title">TryHackMe - Learning Paths</h3>
+                                <p class="card-type">Link</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+
+                        <a href="https://www.vulnhub.com" target="_blank" class="academy-resource-card" data-resource="vulnhub">
+                            <div class="card-icon">🔗</div>
+                            <div class="card-content">
+                                <h3 class="card-title">VulnHub - Vulnerable VMs</h3>
+                                <p class="card-type">Link</p>
+                            </div>
+                            <div class="card-arrow">></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>

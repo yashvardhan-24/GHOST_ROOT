@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOT_ACCESS // SERVICES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="hacker-theme" data-page="services">
+    <canvas id="matrix-canvas"></canvas>
+    <audio id="click-sound" src="https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3"></audio>
+    <audio id="hover-sound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
+
+    <nav class="navbar">
+        <div class="nav-brand"><span class="terminal-icon">#</span><span class="brand-text">GHOST_ROOT</span></div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="whoami.html" class="nav-link"><i class="fas fa-user-secret"></i> WHOAMI</a></li>
+            <li><a href="threats.html" class="nav-link"><i class="fas fa-shield-virus"></i> THREATS</a></li>
+            <li><a href="services.html" class="nav-link active"><i class="fas fa-cogs"></i> SERVICES</a></li>
+            <li><a href="academy.html" class="nav-link"><i class="fas fa-graduation-cap"></i> ACADEMY</a></li>
+            <li><a href="tools.html" class="nav-link"><i class="fas fa-terminal"></i> TOOLS</a></li>
+            <li><a href="ai.html" class="nav-link"><i class="fas fa-robot"></i> GHOST_AI</a></li>
+            <li><a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <section id="services" class="page-section active">
+            <div class="container">
+                <h1 class="section-title">/services</h1>
+                <div class="services-flow-grid">
+                    <div class="service-flow-card" data-service="pentest">
+                        <div class="card-front"><i class="fas fa-user-ninja service-icon"></i><h3>Penetration Testing</h3><button class="btn-service-view">VIEW_PROCESS</button></div>
+                        <div class="card-back">
+                            <p>Full-scale simulated attacks following the Cyber Kill Chain.</p>
+                            <ul class="process-steps"><li>Reconnaissance</li><li>Weaponization</li><li>Delivery & Exploit</li><li>Command & Control</li></ul>
+                            <button class="btn-sample">PORTFOLIO.pdf</button>
+                        </div>
+                    </div>
+                    <div class="service-flow-card" data-service="audit">
+                        <div class="card-front"><i class="fas fa-file-invoice-dollar service-icon"></i><h3>Security Audit</h3><button class="btn-service-view">VIEW_PROCESS</button></div>
+                        <div class="card-back">
+                            <p>Deep-dive into infrastructure and policy compliance.</p>
+                            <ul class="process-steps"><li>Asset Discovery</li><li>Vuln Assessment</li><li>Misconfig Check</li><li>Remediation Roadmap</li></ul>
+                            <button class="btn-sample">AUDIT_SAMPLE.pdf</button>
+                        </div>
+                    </div>
+                    <div class="service-flow-card" data-service="bugbounty">
+                        <div class="card-front"><i class="fas fa-bug service-icon"></i><h3>Bug Bounty Hub</h3><button class="btn-service-view">VIEW_PROCESS</button></div>
+                        <div class="card-back">
+                            <p>Crowdsourced security for your applications.</p>
+                            <ul class="process-steps"><li>VDP Setup</li><li>Triage Support</li><li>Bounty Management</li><li>Safe Harbor Policy</li></ul>
+                            <button class="btn-sample">BB_SUCCESS.log</button>
+                        </div>
+                    </div>
+                    <div class="service-flow-card" data-service="hardening">
+                        <div class="card-front"><i class="fas fa-lock service-icon"></i><h3>System Hardening</h3><button class="btn-service-view">VIEW_PROCESS</button></div>
+                        <div class="card-back">
+                            <p>Fortifying your OS, Network and App stack.</p>
+                            <ul class="process-steps"><li>Service Limiting</li><li>Kernel Tuning</li><li>Access Control</li><li>Binary Protection</li></ul>
+                            <button class="btn-sample">HARDENED_CONFIG.yml</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

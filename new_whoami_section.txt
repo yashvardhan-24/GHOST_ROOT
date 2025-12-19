@@ -1,0 +1,91 @@
+﻿        <!-- WHOAMI Section -->
+        <section id="whoami" class="page-section">
+            <div class="container">
+                <h1 class="section-title">[root]/whoami</h1>
+                
+                <!-- Warning Message -->
+                <div class="warning-box">
+                    <p class="warning-text">
+                        <span class="warning-label">WARNING:</span> You are accessing the profile of <span class="highlight-green">GHOST_ROOT</span>. Identity is redacted. Motives are clear.
+                    </p>
+                </div>
+
+                <!-- The Origin -->
+                <div class="origin-section">
+                    <h2 class="origin-title"><span class="terminal-icon">></span> THE ORIGIN</h2>
+                    
+                    <p class="origin-text">
+                        It started with a 56k modem and a curiosity that broke boundaries. While others played games, I deconstructed them. Code wasn't just text; it was the DNA of the digital world, and I learned how to rewrite it.
+                    </p>
+                    
+                    <p class="origin-text">
+                        From bypassing school firewalls to uncovering zero-day vulnerabilities in enterprise infrastructure, the journey has been one of constant evolution. We don't just find bugs; we understand the psychology of the architect who left them there.
+                    </p>
+                    
+                    <p class="origin-text">
+                        Every system has a weakness. Every network has a backdoor. Our mission is to find them before someone with malicious intent does.
+                    </p>
+                </div>
+
+                <!-- Expertise -->
+                <div class="expertise-section">
+                    <h2 class="expertise-title">CORE_COMPETENCIES</h2>
+                    
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <span class="check-icon">[✓]</span>
+                            <span class="expertise-name">Network Penetration Testing</span>
+                        </div>
+                        <div class="expertise-item">
+                            <span class="check-icon">[✓]</span>
+                            <span class="expertise-name">Web Application Security Audits</span>
+                        </div>
+                        <div class="expertise-item">
+                            <span class="check-icon">[✓]</span>
+                            <span class="expertise-name">Mobile Application Assessment</span>
+                        </div>
+                        <div class="expertise-item">
+                            <span class="check-icon">[✓]</span>
+                            <span class="expertise-name">Social Engineering Simulations</span>
+                        </div>
+                        <div class="expertise-item">
+                            <span class="check-icon">[✓]</span>
+                            <span class="expertise-name">Cloud Security Reviews</span>
+                        </div>
+                        <div class="expertise-item">
+                            <span class="check-icon">[✓]</span>
+                            <span class="expertise-name">Incident Response & Forensics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certifications-section">
+                    <h2 class="cert-title">CERTIFICATIONS</h2>
+                    <div class="cert-grid">
+                        <div class="cert-badge">CEH</div>
+                        <div class="cert-badge">OSCP</div>
+                        <div class="cert-badge">CISSP</div>
+                        <div class="cert-badge">GPEN</div>
+                        <div class="cert-badge">Security+</div>
+                    </div>
+                </div>
+
+                <!-- Arsenal -->
+                <div class="arsenal-section">
+                    <h2 class="arsenal-title">ARSENAL</h2>
+                    <div class="arsenal-tags">
+                        <span class="arsenal-tag">Kali Linux</span>
+                        <span class="arsenal-tag">Metasploit</span>
+                        <span class="arsenal-tag">Burp Suite</span>
+                        <span class="arsenal-tag">Nmap</span>
+                        <span class="arsenal-tag">Wireshark</span>
+                        <span class="arsenal-tag">Aircrack-ng</span>
+                        <span class="arsenal-tag">John the Ripper</span>
+                        <span class="arsenal-tag">Hashcat</span>
+                        <span class="arsenal-tag">SQLmap</span>
+                        <span class="arsenal-tag">Hydra</span>
+                    </div>
+                </div>
+            </div>
+        </section>

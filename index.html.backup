@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETHICAL_HACKERS_</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="terminal-icon">▶</span>
+            <span class="brand-text">ETHICAL_HACKERS_</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link" data-page="home"><span class="terminal-icon">▶</span> HOME</a></li>
+            <li><a href="#whoami" class="nav-link" data-page="whoami"><span class="terminal-icon">▶</span> WHOAMI</a></li>
+            <li><a href="#services" class="nav-link" data-page="services"><span class="terminal-icon">▶</span> SERVICES</a></li>
+            <li><a href="#academy" class="nav-link" data-page="academy"><span class="terminal-icon">▶</span> ACADEMY</a></li>
+            <li><a href="#tools" class="nav-link" data-page="tools"><span class="terminal-icon">▶</span> TOOLS</a></li>
+            <li><a href="#contact" class="nav-link" data-page="contact"><span class="terminal-icon">▶</span> CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- HOME Section -->
+        <section id="home" class="page-section active">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="glitch-text">/root/welcome</h1>
+                    <div class="terminal-output">
+                        <p class="typing-text"> initializing_secure_connection...</p>
+                        <p class="typing-text delay-1"> loading_ethical_hacking_protocols...</p>
+                        <p class="typing-text delay-2"> access_granted</p>
+                    </div>
+                    <p class="hero-description">
+                        Elite cybersecurity services for the digital age. We penetrate systems ethically, 
+                        identify vulnerabilities, and fortify your digital infrastructure against threats.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#services" class="btn-primary" data-page="services">
+                            <span class="terminal-icon">▶</span> EXPLORE SERVICES
+                        </a>
+                        <a href="#contact" class="btn-secondary" data-page="contact">
+                            <span class="terminal-icon">▶</span> INITIALIZE CONTACT
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHOAMI Section -->
+        <section id="whoami" class="page-section">
+            <div class="container">
+                <h1 class="section-title">/usr/bin/whoami</h1>
+                <div class="terminal-box">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">identity.sh</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p class="terminal-line"><span class="prompt">root@ethical-hackers:~</span> cat identity.txt</p>
+                        <p class="terminal-line">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                        <p class="terminal-line">DESIGNATION: Elite Cybersecurity Specialist</p>
+                        <p class="terminal-line">CLEARANCE: Level 9 - Unrestricted Access</p>
+                        <p class="terminal-line">SPECIALIZATION: Penetration Testing | Vulnerability Assessment</p>
+                        <p class="terminal-line">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                        <br>
+                        <p class="terminal-line">We are a collective of ethical hackers dedicated to securing</p>
+                        <p class="terminal-line">the digital realm. Our mission: identify weaknesses before</p>
+                        <p class="terminal-line">malicious actors exploit them. We operate in the shadows,</p>
+                        <p class="terminal-line">protecting organizations from cyber threats with cutting-edge</p>
+                        <p class="terminal-line">techniques and unwavering integrity.</p>
+                        <br>
+                        <p class="terminal-line"><span class="highlight">CORE COMPETENCIES:</span></p>
+                        <p class="terminal-line">  [✓] Network Penetration Testing</p>
+                        <p class="terminal-line">  [✓] Web Application Security Audits</p>
+                        <p class="terminal-line">  [✓] Mobile Application Assessment</p>
+                        <p class="terminal-line">  [✓] Social Engineering Simulations</p>
+                        <p class="terminal-line">  [✓] Cloud Security Reviews</p>
+                        <p class="terminal-line">  [✓] Incident Response & Forensics</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES Section -->
+        <section id="services" class="page-section">
+            <div class="container">
+                <h1 class="section-title">/var/services</h1>
+                <p class="section-subtitle">Essential utilities for security assessment. <span class="highlight">Use responsibly</span></p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🔓</div>
+                        <h3 class="service-title">NETWORK_PENETRATION_TESTING</h3>
+                        <p class="service-description">
+                            Comprehensive network infrastructure assessment. We identify vulnerabilities 
+                            in your network architecture, firewall configurations, and access controls.
+                        </p>
+                        <div class="service-tags">
+                            <span class="tag">Port Scanning</span>
+                            <span class="tag">Vulnerability Analysis</span>
+                            <span class="tag">Exploit Testing</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3 class="service-title">WEB_APPLICATION_AUDIT</h3>
+                        <p class="service-description">
+                            Deep dive into web application security. SQL injection, XSS, CSRF, and 
+                            authentication bypass testing to ensure your web apps are bulletproof.
+                        </p>
+                        <div class="service-tags">
+                            <span class="tag">OWASP Top 10</span>
+                            <span class="tag">API Security</span>
+                            <span class="tag">Session Management</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3 class="service-title">MOBILE_APP_SECURITY</h3>
+                        <p class="service-description">
+                            iOS and Android application security testing. Reverse engineering, 
+                            insecure data storage, and API communication analysis.
+                        </p>
+                        <div class="service-tags">
+                            <span class="tag">Static Analysis</span>
+                            <span class="tag">Dynamic Testing</span>
+                            <span class="tag">Reverse Engineering</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🎭</div>
+                        <h3 class="service-title">SOCIAL_ENGINEERING</h3>
+                        <p class="service-description">
+                            Human element testing through phishing campaigns, pretexting, and 
+                            physical security assessments to evaluate your organization's awareness.
+                        </p>
+                        <div class="service-tags">
+                            <span class="tag">Phishing Simulations</span>
+                            <span class="tag">Awareness Training</span>
+                            <span class="tag">Physical Pentesting</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">☁️</div>
+                        <h3 class="service-title">CLOUD_SECURITY_REVIEW</h3>
+                        <p class="service-description">
+                            AWS, Azure, and GCP security configuration reviews. Identify misconfigurations, 
+                            IAM issues, and data exposure risks in your cloud infrastructure.
+                        </p>
+                        <div class="service-tags">
+                            <span class="tag">Configuration Audit</span>
+                            <span class="tag">IAM Review</span>
+                            <span class="tag">Compliance Check</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🚨</div>
+                        <h3 class="service-title">INCIDENT_RESPONSE</h3>
+                        <p class="service-description">
+                            Rapid response to security breaches. Digital forensics, malware analysis, 
+                            and containment strategies to minimize damage and prevent future attacks.
+                        </p>
+                        <div class="service-tags">
+                            <span class="tag">Forensic Analysis</span>
+                            <span class="tag">Malware Detection</span>
+                            <span class="tag">Recovery Planning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACADEMY Section -->
+        <section id="academy" class="page-section">
+            <div class="container">
+                <h1 class="section-title">/opt/academy</h1>
+                <p class="section-subtitle">Knowledge base for aspiring security professionals</p>
+                
+                <div class="academy-grid">
+                    <div class="academy-card">
+                        <div class="academy-header">
+                            <span class="academy-icon">📚</span>
+                            <h3>FUNDAMENTALS</h3>
+                        </div>
+                        <ul class="academy-list">
+                            <li><span class="terminal-icon">▶</span> Introduction to Ethical Hacking</li>
+                            <li><span class="terminal-icon">▶</span> Networking Basics for Hackers</li>
+                            <li><span class="terminal-icon">▶</span> Linux Command Line Mastery</li>
+                            <li><span class="terminal-icon">▶</span> Cryptography Essentials</li>
+                        </ul>
+                    </div>
+
+                    <div class="academy-card">
+                        <div class="academy-header">
+                            <span class="academy-icon">🛠️</span>
+                            <h3>TOOLS & TECHNIQUES</h3>
+                        </div>
+                        <ul class="academy-list">
+                            <li><span class="terminal-icon">▶</span> Nmap: Network Scanning Guide</li>
+                            <li><span class="terminal-icon">▶</span> Metasploit Framework Tutorial</li>
+                            <li><span class="terminal-icon">▶</span> Burp Suite for Web Testing</li>
+                            <li><span class="terminal-icon">▶</span> Wireshark Traffic Analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="academy-card">
+                        <div class="academy-header">
+                            <span class="academy-icon">🎯</span>
+                            <h3>ADVANCED TOPICS</h3>
+                        </div>
+                        <ul class="academy-list">
+                            <li><span class="terminal-icon">▶</span> Binary Exploitation Techniques</li>
+                            <li><span class="terminal-icon">▶</span> Advanced Web Attacks (XXE, SSRF)</li>
+                            <li><span class="terminal-icon">▶</span> Active Directory Pentesting</li>
+                            <li><span class="terminal-icon">▶</span> Mobile App Reverse Engineering</li>
+                        </ul>
+                    </div>
+
+                    <div class="academy-card">
+                        <div class="academy-header">
+                            <span class="academy-icon">🏆</span>
+                            <h3>CERTIFICATIONS</h3>
+                        </div>
+                        <ul class="academy-list">
+                            <li><span class="terminal-icon">▶</span> CEH (Certified Ethical Hacker)</li>
+                            <li><span class="terminal-icon">▶</span> OSCP (Offensive Security)</li>
+                            <li><span class="terminal-icon">▶</span> CISSP (Security Professional)</li>
+                            <li><span class="terminal-icon">▶</span> CompTIA Security+</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TOOLS Section -->
+        <section id="tools" class="page-section">
+            <div class="container">
+                <h1 class="section-title">/bin/tools</h1>
+                <p class="section-subtitle">Essential utilities for security assessment. <span class="highlight">Use responsibly</span></p>
+                
+                <div class="tool-container">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <span class="tool-icon">🔒</span>
+                            <h2 class="tool-title">PASSWORD_STRENGTH_ANALYZER</h2>
+                        </div>
+                        
+                        <div class="tool-body">
+                            <label class="tool-label">ENTER TARGET STRING:</label>
+                            <input 
+                                type="password" 
+                                id="password-input" 
+                                class="tool-input" 
+                                placeholder="Type password here..."
+                                autocomplete="off"
+                            >
+                            
+                            <div class="password-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">STATUS:</span>
+                                    <span id="password-status" class="stat-value">...</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">STRENGTH:</span>
+                                    <div class="strength-bar">
+                                        <div id="strength-fill" class="strength-fill"></div>
+                                    </div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">CHARACTERS:</span>
+                                    <span id="char-count" class="stat-value">0 CHARS</span>
+                                </div>
+                            </div>
+
+                            <div id="password-feedback" class="password-feedback"></div>
+
+                            <div class="tool-actions">
+                                <button id="analyze-btn" class="btn-tool">
+                                    <span class="terminal-icon">▶</span> ANALYZE
+                                </button>
+                                <button id="generate-btn" class="btn-tool-secondary">
+                                    <span class="terminal-icon">▶</span> GENERATE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT Section -->
+        <section id="contact" class="page-section">
+            <div class="container">
+                <h1 class="section-title">/etc/contact_secure</h1>
+                
+                <div class="contact-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label class="form-label">Target ID (Name)</label>
+                            <input 
+                                type="text" 
+                                id="contact-name" 
+                                name="name"
+                                class="form-input" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Return Address (Email)</label>
+                            <input 
+                                type="email" 
+                                id="contact-email" 
+                                name="email"
+                                class="form-input" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Payload (Message)</label>
+                            <textarea 
+                                id="contact-message" 
+                                name="message"
+                                class="form-textarea" 
+                                rows="6"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <span class="terminal-icon">▶</span> INITIALIZE UPLOAD
+                        </button>
+                    </form>
+
+                    <div id="form-response" class="form-response"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

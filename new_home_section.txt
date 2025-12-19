@@ -1,0 +1,85 @@
+﻿        <!-- HOME Section -->
+        <section id="home" class="page-section active">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="mega-glitch-text">SECURE THE SYSTEM</h1>
+                    <p class="hero-subtitle">Ethical Hacking & Cybersecurity Solutions</p>
+                    <button class="btn-initiate" id="initiate-protocol-btn">
+                        <span class="terminal-icon">▶</span> INITIATE PROTOCOL
+                    </button>
+                </div>
+
+                <!-- Mission Statement -->
+                <div class="mission-box">
+                    <p class="mission-text">
+                        We exist in the shadows to protect the light. In an era where data is the new currency, vulnerability is inevitable.
+                    </p>
+                    <p class="mission-text">
+                        Our collective of elite <span class="highlight-green">White Hat Hackers</span> simulates advanced cyber-attacks to identify weaknesses before malicious actors can exploit them. We don't just patch holes; we redesign the architecture of your defense.
+                    </p>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">UPTIME SECURED</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">BREACHES PREVENTED</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">ACTIVE MONITORING</div>
+                    </div>
+                </div>
+
+                <!-- Active Protocols -->
+                <div class="protocols-section">
+                    <h2 class="protocols-title">/ACTIVE_PROTOCOLS<span class="cursor-blink">|</span></h2>
+                    
+                    <div class="protocols-grid">
+                        <div class="protocol-card">
+                            <div class="protocol-icon">🛡️</div>
+                            <h3 class="protocol-title">Penetration Testing</h3>
+                            <p class="protocol-description">
+                                Simulated attacks to uncover critical vulnerabilities in your infrastructure before malicious actors do.
+                            </p>
+                        </div>
+
+                        <div class="protocol-card">
+                            <div class="protocol-icon">🔐</div>
+                            <h3 class="protocol-title">Encryption Audits</h3>
+                            <p class="protocol-description">
+                                Verifying cryptographic standards to ensure data remains unreadable to unauthorized parties.
+                            </p>
+                        </div>
+
+                        <div class="protocol-card">
+                            <div class="protocol-icon">🎭</div>
+                            <h3 class="protocol-title">Social Engineering</h3>
+                            <p class="protocol-description">
+                                Testing human vulnerabilities through controlled phishing and manipulation simulations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- System Log -->
+                <div class="system-log">
+                    <div class="log-header">
+                        <span class="log-prompt">root@kali-linux:~# system_log</span>
+                    </div>
+                    <div class="log-body">
+                        <p class="log-line info">[INFO] Initializing handshake...</p>
+                        <p class="log-line info">[INFO] Connection established: 192.168.1.X</p>
+                        <p class="log-line warn">[WARN] Port 8080 exposed.</p>
+                        <p class="log-line alert">[ALERT] Unverified request from external IP.</p>
+                        <p class="log-line info">[INFO] Firewall Block Triggered.</p>
+                        <p class="log-line success">[SUCCESS] Threat neutralized.</p>
+                        <p class="log-line">...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
