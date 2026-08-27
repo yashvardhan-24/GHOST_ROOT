@@ -197,11 +197,11 @@ app.post('/api/ai-chat', async (req, res) => {
         ];
         
         const completion = await openai.chat.completions.create({
-            model: process.env.AI_MODEL || 'gpt-3.5-turbo',
-            messages: messages,
-            temperature: 0.7,
-            max_tokens: 500
-        });
+    model: process.env.AI_MODEL || 'openai/gpt-5.4',
+    messages,
+    temperature: 0.7,
+    max_tokens: 500
+});
         
         const aiResponse = completion.choices[0].message.content;
         
