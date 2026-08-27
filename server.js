@@ -171,8 +171,8 @@ const OpenAI = require('openai');
 
 // Initialize OpenAI client for Comet AI
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-    baseURL: process.env.OPENAI_API_BASE || 'https://api.comet.ml/api/v1'
+    apiKey: process.env.OPENROUTER_API_KEY,
+    baseURL: 'https://openrouter.ai/api/v1'
 });
 
 // AI Chat endpoint
@@ -229,7 +229,7 @@ app.post('/api/ai-analyze-code', async (req, res) => {
     
     try {
         const completion = await openai.chat.completions.create({
-            model: process.env.AI_MODEL || 'gpt-3.5-turbo',
+           model: process.env.AI_MODEL,,
             messages: [
                 {
                     role: 'system',
@@ -270,7 +270,7 @@ app.post('/api/ai-analyze-threat', async (req, res) => {
     
     try {
         const completion = await openai.chat.completions.create({
-            model: process.env.AI_MODEL || 'gpt-3.5-turbo',
+            model: process.env.AI_MODEL,,
             messages: [
                 {
                     role: 'system',
